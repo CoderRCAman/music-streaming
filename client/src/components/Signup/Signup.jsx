@@ -1,10 +1,5 @@
-<<<<<<< Updated upstream
-import React from 'react'
-import { Link } from 'react-router-dom'
-=======
 import React from "react";
 import { Link } from "react-router-dom";
->>>>>>> Stashed changes
 
 export default function Signup() {
   return (
@@ -17,32 +12,14 @@ export default function Signup() {
       </div>
       <div className="flex justify-center mt-4">
         <div className="flex flex-col w-[40%]">
-<<<<<<< Updated upstream
-        <div className="flex flex-col pb-2">
-            <label className="font-bold text-sm pb-2">Name</label>
-            <input
-              className="block  shadow-md h-[45px] border border-[#808080] rounded-[4px] hover:border-stone-900 p-2"
-              placeholder="Name"
-            />
-          </div>
-          <div className="flex flex-col pb-2">
-            <label className="font-bold text-sm pb-2">Email addrress</label>
-            <input
-=======
           <div className="flex flex-col pb-2">
             <label className="font-bold text-sm pb-2">Email addrress</label>
             <input
               name="email"
->>>>>>> Stashed changes
               className="block  shadow-md h-[45px] border border-[#808080] rounded-[4px] hover:border-stone-900 p-2"
               placeholder="Email address"
             />
           </div>
-<<<<<<< Updated upstream
-          <div className="flex flex-col">
-            <label className="font-bold text-sm pb-2">Password</label>
-            <input
-=======
           <div className="flex flex-col pb-2">
             <label className="font-bold text-sm pb-2">Full Name</label>
             <input
@@ -63,32 +40,12 @@ export default function Signup() {
             <label className="font-bold text-sm pb-2">Password</label>
             <input
               name="password"
->>>>>>> Stashed changes
               className="block  shadow-md h-[45px] border border-[#808080] rounded-[4px] hover:border-stone-900 p-2"
               placeholder="Password"
             />
           </div>
           <div className="flex justify-end mt-4">
             <button className="text-md bg-[#1fdf64] px-4 py-2 rounded-full font-semibold w-[120px] h-[50px] hover:w-[125px] hover:h-[52px]">
-<<<<<<< Updated upstream
-              Sign UP
-            </button>
-          </div>
-          <div className="border-b border-stone-300 mt-4"></div>
-          
-          <div>
-          <Link to="/login">
-            <button className="text-gray-600 mb-2 tracking-wide text-[14px] border border-[#808080] px-4 py-2 rounded-full font-bold w-full h-[50px] hover:border-stone-900">
-              LOGIN
-            </button>
-            </Link>
-          </div>
-          
-        </div>
-      </div>
-    </div>
-  )
-=======
               Signup
             </button>
           </div>
@@ -96,7 +53,7 @@ export default function Signup() {
           <div className="flex justify-center mt-4">
             <h1 className="text-lg font-bold pb-2">Already have an account?</h1>
           </div>
-          <Link to={'/login'}>
+          <Link to={"/login"}>
             <button className="text-gray-600 mb-2 tracking-wide text-[14px] border border-[#808080] px-4 py-2 rounded-full font-bold w-full h-[50px] hover:border-stone-900">
               Login for Nerimfy
             </button>
@@ -105,5 +62,4 @@ export default function Signup() {
       </div>
     </div>
   );
->>>>>>> Stashed changes
 }

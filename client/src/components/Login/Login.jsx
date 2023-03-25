@@ -1,10 +1,8 @@
-<<<<<<< Updated upstream
 import React from "react";
 import { Link } from "react-router-dom";
 
-=======
 import { Link } from "react-router-dom";
->>>>>>> Stashed changes
+import { Link } from "react-router-dom";
 export default function Login() {
   return (
     <div className="">
@@ -41,6 +39,11 @@ export default function Login() {
           </div>
           <Link to="/sign-up">
           <div>
+            <Link to={'/sign-up'}>
+              <button className="text-gray-600 mb-2 tracking-wide text-[14px] border border-[#808080] px-4 py-2 rounded-full font-bold w-full h-[50px] hover:border-stone-900">
+                SIGN UP FOR NERIMFY
+              </button>
+            </Link>
             <Link to={'/sign-up'}>
               <button className="text-gray-600 mb-2 tracking-wide text-[14px] border border-[#808080] px-4 py-2 rounded-full font-bold w-full h-[50px] hover:border-stone-900">
                 SIGN UP FOR NERIMFY
